@@ -257,11 +257,11 @@ MonoBehaviour:
   bboxInput: {x: 49.5082, y: 11.42582, z: 49.5282, w: 11.44582}
   query: '[out:xml]
 
-    [bbox:49.40816, 11.38074, 49.60816, 11.48074];
+    [bbox:{minLat}, {minLon}, {maxLat}, {maxLon}];
 
     (
 
-    way["highway"];
+    way{circular}["highway"];
 
     );
 
