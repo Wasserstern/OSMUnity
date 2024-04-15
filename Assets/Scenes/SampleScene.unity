@@ -247,11 +247,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   useManualInput: 0
-  searchCircular: 0
-  locationLongitude: 11.43074
-  locationLatitude: 49.50816
+  searchCircular: 1
+  locationLongitude: 11.078305
+  locationLatitude: 49.450584
   boundingBoxOffset: 0.1
-  circularSearchRadius: 2000
+  circularSearchRadius: 4000
   wayPrefab: {fileID: 6753327448606756396, guid: cb7ed57348e3e9d46b4e5167e8517f80, type: 3}
   cameraContainerPrefab: {fileID: 3968271859998001125, guid: f84f6f55e4eab6345985db6cff07a65f, type: 3}
   bboxInput: {x: 49.5082, y: 11.42582, z: 49.5282, w: 11.44582}
